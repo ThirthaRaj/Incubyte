@@ -2,9 +2,9 @@
   "name": "incubyte",
   "version": "1.0.0",
   "description": "Assesment",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ThirthaRaj/Incubyte/issues"
   },
-  "homepage": "https://github.com/ThirthaRaj/Incubyte#readme"
+  "homepage": "https://github.com/ThirthaRaj/Incubyte#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0"
+  }
 }
